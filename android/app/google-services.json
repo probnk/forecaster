@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "70316448112",
+    "project_id": "forecaster-3550a",
+    "storage_bucket": "forecaster-3550a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70316448112:android:c30d819c9e843b95c757b5",
+        "android_client_info": {
+          "package_name": "com.example.forecaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzKUYRV5vWo3q9hW4DMtiLAnw2UjH6d2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -32,13 +32,14 @@ Future<void> main() async{
   if(isRunning){
     await initializeServices();
   }
-  await Firebase.initializeApp(
-    options:const FirebaseOptions(
-        apiKey: "AIzaSyBzKUYRV5vWo3q9hW4DMtiLAnw2UjH6d2c",
-        appId: "1:70316448112:android:c30d819c9e843b95c757b5",
-        messagingSenderId: "70316448112",
-        projectId: "forecaster-3550a"
-    )
+   await Firebase.initializeApp(
+      options:const FirebaseOptions(
+          apiKey: "apiKey",
+          appId: "appId",
+          messagingSenderId: "messagingSenderId",
+          projectId: "projectId",
+          storageBucket: "storageBucket"
+      )
   );
   runApp(MyApp(isGetStarted: isGetStarted));
 }
